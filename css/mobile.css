@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+  /* Navbar */
+  .navbar-avatar {
+    display: none;
+  }
+  #nav-bar {
+    display: inline-block;
+    margin-left: 24px;
+  }
+  .navbar {
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+  }
+  .navbar b {
+    width: 120px;
+    text-align: left;
+  }
+
+  /* Thông tin cá nhân */
+  .container-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 1.5;
+  }
+
+  /* Thông tin nghề nghiệp */
+  .container-job {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .kinh-nghiem {
+    margin-bottom: 42px;
+  }
+  .ky-nang {
+    margin-bottom: 24px;
+  }
+
+  /* Chứng chỉ, giải thưởng */
+  .container-cert {
+    padding: 12px;
+  }
+  .cert-text1,
+  .cert-text2,
+  .cert-text3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .container-cert img {
+    width: 100%;
+  }
+
+  /* Dự án */
+  .project-cv,
+  .project-pet,
+  .project-news {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  /* .container-project {
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+    padding: 32px 8px;
+  } */
+  .container-project {
+    padding: 24px 12px;
+  }
+  .container-project img {
+    width: 100%;
+    height: 50%;
+  }
+  .project-head {
+    height: 15%;
+    padding: 12px 0px 12px 8px;
+  }
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 15%;
+    align-items: baseline;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  .container-project h2 {
+    grid-column: 1/4;
+  }
+  .container-project div {
+    border-bottom: 1px solid #adb5bd;
+  }
+  .project-info p {
+    background-color: #228be6;
+    color: #f7f7f7;
+    width: 44px;
+    font-size: 12px;
+    padding: 8px;
+    padding-left: 10px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+  }
+
+  /* Liên hệ */
+  #footer {
+    font-size: 14px;
+  }
+}
